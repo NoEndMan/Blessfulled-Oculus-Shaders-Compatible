@@ -1,10 +1,10 @@
-package net.flameslight.blessfulled_shader_combability.handlers;
+package net.flameslight.blessfulled_oculus_shaders_compatible.handlers;
 
-import net.flameslight.blessfulled_shader_combability.compat.OculusCompat;
-import net.flameslight.blessfulled_shader_combability.entity.DamagePopupEntity;
-import net.flameslight.blessfulled_shader_combability.logger.ModLogger;
-import net.flameslight.blessfulled_shader_combability.mixins.ParticleAccessor;
-import net.flameslight.blessfulled_shader_combability.registry.ModEntities;
+import net.flameslight.blessfulled_oculus_shaders_compatible.compat.OculusCompat;
+import net.flameslight.blessfulled_oculus_shaders_compatible.entity.DamagePopupEntity;
+import net.flameslight.blessfulled_oculus_shaders_compatible.logger.ModLogger;
+import net.flameslight.blessfulled_oculus_shaders_compatible.mixins.ParticleAccessor;
+import net.flameslight.blessfulled_oculus_shaders_compatible.registry.ModEntities;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
 import org.aqutheseal.blessfulled.particle.DamagePopupParticle;

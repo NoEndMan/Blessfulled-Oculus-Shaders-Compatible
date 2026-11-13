@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.flameslight.blessfulled_shader_combability.mixins",
+  "package": "net.flameslight.blessfulled_oculus_shaders_compatible.mixins",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "blessfulled_shader_combability.refmap.json",
+  "refmap": "blessfulled_oculus_shaders_compatible.refmap.json",
   "injectors": {
     "defaultRequire": 1
   },

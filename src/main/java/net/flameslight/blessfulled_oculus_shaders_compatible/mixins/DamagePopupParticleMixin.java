@@ -1,7 +1,7 @@
-package net.flameslight.blessfulled_shader_combability.mixins;
+package net.flameslight.blessfulled_oculus_shaders_compatible.mixins;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import net.flameslight.blessfulled_shader_combability.handlers.PopupTrackingHandler;
+import net.flameslight.blessfulled_oculus_shaders_compatible.handlers.PopupTrackingHandler;
 import net.minecraft.client.Camera;
 import net.minecraft.client.multiplayer.ClientLevel;
 import org.aqutheseal.blessfulled.particle.DamagePopupParticle;

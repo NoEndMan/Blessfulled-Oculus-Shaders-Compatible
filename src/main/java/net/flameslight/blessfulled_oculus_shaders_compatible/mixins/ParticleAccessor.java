@@ -1,4 +1,4 @@
-package net.flameslight.blessfulled_shader_combability.mixins;
+package net.flameslight.blessfulled_oculus_shaders_compatible.mixins;
 
 import net.minecraft.client.particle.Particle;
 import org.spongepowered.asm.mixin.Mixin;

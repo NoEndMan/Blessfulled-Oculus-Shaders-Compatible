@@ -1,9 +1,9 @@
-package net.flameslight.blessfulled_shader_combability.events;
+package net.flameslight.blessfulled_oculus_shaders_compatible.events;
 
-import net.flameslight.blessfulled_shader_combability.BlessfulledShaderCombability;
-import net.flameslight.blessfulled_shader_combability.config.ClientConfig;
-import net.flameslight.blessfulled_shader_combability.entity.DamagePopupEntityRenderer;
-import net.flameslight.blessfulled_shader_combability.registry.ModEntities;
+import net.flameslight.blessfulled_oculus_shaders_compatible.BlessfulledOculusShadersCompatible;
+import net.flameslight.blessfulled_oculus_shaders_compatible.config.ClientConfig;
+import net.flameslight.blessfulled_oculus_shaders_compatible.entity.DamagePopupEntityRenderer;
+import net.flameslight.blessfulled_oculus_shaders_compatible.registry.ModEntities;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,7 +13,7 @@ import net.minecraftforge.fml.event.config.ModConfigEvent;
 /**
  * Mod bus listeners of the client. Each one only forwards to its handler.
  */
-@Mod.EventBusSubscriber(modid = BlessfulledShaderCombability.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = BlessfulledOculusShadersCompatible.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ModEvents {
     /**
      * Config load, reload and unload.

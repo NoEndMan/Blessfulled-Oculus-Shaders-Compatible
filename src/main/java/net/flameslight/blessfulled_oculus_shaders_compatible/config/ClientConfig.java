@@ -1,4 +1,4 @@
-package net.flameslight.blessfulled_shader_combability.config;
+package net.flameslight.blessfulled_oculus_shaders_compatible.config;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.fml.config.ModConfig;

@@ -1,4 +1,4 @@
-package net.flameslight.blessfulled_shader_combability.compat;
+package net.flameslight.blessfulled_oculus_shaders_compatible.compat;
 
 import net.irisshaders.iris.api.v0.IrisApi;
 

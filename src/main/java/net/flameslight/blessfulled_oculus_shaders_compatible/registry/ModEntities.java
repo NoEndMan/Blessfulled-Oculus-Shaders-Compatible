@@ -1,7 +1,7 @@
-package net.flameslight.blessfulled_shader_combability.registry;
+package net.flameslight.blessfulled_oculus_shaders_compatible.registry;
 
-import net.flameslight.blessfulled_shader_combability.BlessfulledShaderCombability;
-import net.flameslight.blessfulled_shader_combability.entity.DamagePopupEntity;
+import net.flameslight.blessfulled_oculus_shaders_compatible.BlessfulledOculusShadersCompatible;
+import net.flameslight.blessfulled_oculus_shaders_compatible.entity.DamagePopupEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,7 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 public final class ModEntities {
     /** The entity type register, attached to the mod bus by the mod constructor. */
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
-            DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, BlessfulledShaderCombability.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, BlessfulledOculusShadersCompatible.MOD_ID);
 
     /** The client side only entity that wraps a Blessfulled damage popup particle. */
     public static final RegistryObject<EntityType<DamagePopupEntity>> DAMAGE_POPUP = ENTITY_TYPES.register("damage_popup",

@@ -1,7 +1,7 @@
-package net.flameslight.blessfulled_shader_combability.logger;
+package net.flameslight.blessfulled_oculus_shaders_compatible.logger;
 
-import net.flameslight.blessfulled_shader_combability.BlessfulledShaderCombability;
-import net.flameslight.blessfulled_shader_combability.config.ClientConfig;
+import net.flameslight.blessfulled_oculus_shaders_compatible.BlessfulledOculusShadersCompatible;
+import net.flameslight.blessfulled_oculus_shaders_compatible.config.ClientConfig;
 import org.slf4j.Logger;
 
 import java.text.MessageFormat;
@@ -10,7 +10,7 @@ import java.text.MessageFormat;
  * The mod's logger: prefixes every line with the mod's name and prints debug lines only when debugMod is on.
  */
 public class ModLogger {
-    private static final Logger LOGGER = BlessfulledShaderCombability.LOGGER;
+    private static final Logger LOGGER = BlessfulledOculusShadersCompatible.LOGGER;
 
     public static void info(String message, Object ... args) {
         LOGGER.info(buildMessageLog(message), args);
@@ -46,6 +46,6 @@ public class ModLogger {
      * @return "PrioritizedMusicPlayer-logger: message"
      */
     private static String buildMessageLog(String message) {
-        return MessageFormat.format("{0}: {1}", "BlessfulledShaderCombability-logger", message);
+        return MessageFormat.format("{0}: {1}", "BlessfulledOSC-logger", message);
     }
 }

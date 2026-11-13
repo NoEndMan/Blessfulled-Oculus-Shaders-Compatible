@@ -1,8 +1,8 @@
-package net.flameslight.blessfulled_shader_combability.entity;
+package net.flameslight.blessfulled_oculus_shaders_compatible.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.flameslight.blessfulled_shader_combability.compat.OculusCompat;
-import net.flameslight.blessfulled_shader_combability.mixins.ParticleAccessor;
+import net.flameslight.blessfulled_oculus_shaders_compatible.compat.OculusCompat;
+import net.flameslight.blessfulled_oculus_shaders_compatible.mixins.ParticleAccessor;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.renderer.LightTexture;
 import net.minecraft.client.renderer.MultiBufferSource;

@@ -1,6 +1,6 @@
-package net.flameslight.blessfulled_shader_combability.entity;
+package net.flameslight.blessfulled_oculus_shaders_compatible.entity;
 
-import net.flameslight.blessfulled_shader_combability.handlers.PopupTrackingHandler;
+import net.flameslight.blessfulled_oculus_shaders_compatible.handlers.PopupTrackingHandler;
 import net.minecraft.client.gui.Font;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
