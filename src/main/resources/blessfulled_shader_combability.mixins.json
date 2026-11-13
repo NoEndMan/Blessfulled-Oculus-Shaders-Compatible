@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.flameslight.blessfulled_shader_combability.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "blessfulled_shader_combability.refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [],
+  "client": [
+    "DamagePopupParticleMixin",
+    "ParticleAccessor"
+  ],
+  "server": []
+}
